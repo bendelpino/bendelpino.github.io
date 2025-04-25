@@ -1,0 +1,48 @@
+.short-description {
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+  font-size: 1em;
+  font-variant: normal;
+  letter-spacing: normal;
+  font-weight: 400;
+  text-transform: none !important;
+  color: #eaeaea;
+  line-height: 1.5;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 260px;
+  gap: 2.2em;
+}
+
+.banner-name {
+  margin-bottom: 0;
+  margin-top: 0.5em;
+  letter-spacing: 0.15em;
+}
+
+
+@media (max-width: 600px) {
+  .short-description {
+    font-size: 0.95em;
+  }
+}
+
+/* X social icon */
+.icon.brands.fa-x::before {
+  /* either embed the glyph directly… */
+  content: "𝕏";
+  /* …or use the Unicode code point: */
+  /* content: "\1D54F"; */
+  font-family: sans-serif;
+  /* pick a font that has the 𝕏 glyph */
+  font-size: 1.2em;
+  /* tweak size to match your other icons */
+  line-height: 1;
+  display: inline-block;
+}
