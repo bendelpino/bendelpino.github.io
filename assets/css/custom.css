@@ -138,8 +138,7 @@ body.landing #footer:hover {
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.9em;
-  padding-top: 1em;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 0.5em;
 }
 
 .copyright p {
