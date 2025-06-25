@@ -10,6 +10,7 @@
   text-transform: none !important;
   color: #eaeaea;
   line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
 }
 
 .flex-column {
@@ -19,6 +20,7 @@
   justify-content: center;
   min-height: 260px;
   gap: 2.2em;
+  padding: 0 1em;
 }
 
 .banner-name {
@@ -67,7 +69,8 @@ body.landing section {
   margin: 2em auto;
   max-width: 90%;
   border-radius: 15px;
-  background-color: rgba(46, 56, 66, 0.8); /* Slightly transparent dark background */
+  background-color: rgba(46, 56, 66, 0.8);
+  /* Slightly transparent dark background */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -152,11 +155,11 @@ body.landing #footer:hover {
     max-width: 95%;
     padding: 1em;
   }
-  
+
   body.landing #two .spotlight {
     max-width: 95%;
   }
-  
+
   body.landing #footer {
     max-width: 95%;
   }
